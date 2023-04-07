@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.Dashboard{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.section-one{
+    padding-left: 5%;
+}
+.left-first{
+    margin-top: 9%;
+    background-color:rgb(72, 70, 70);
+    height:25vh;
+    width: 178px;
+    border-radius: 30px;
+}
+.ff{
+    font-weight: 500; 
+    font-size: small;
+    color: white;
+    padding: 15px 30px;
+    line-height: 7px;
+}
+.ff > h4{
+     color:#fe5160;
+}
+.fs{
+    display:flex;
+    font-size: small;
+    padding: 10px 10px;
+}
+.fs > p{
+    font-weight: 500;
+    text-align: center;
+    padding:0 15px;
+    color: white;
+}
+.left-second{
+    margin-top: 9%;
+    background-color: rgb(72, 70, 70);
+    height: 40vh;
+    width: 178px;
+    border-radius: 30px;
+}
+.icons{
+    padding:35px 30px;
+}
+.material-icons{
+    padding-right: 10px;
+    float: left;
+    color: white;
+}
+.material-icons:hover{
+    color: black;
+}
+.icon-intro{
+    padding-left: 15px;
+    font-weight: 500;
+    color: white;
+}
+.icon-intro:hover{
+    color: black;
+}
+.left-third{
+    margin-top: 9%;
+    background-color:rgb(100, 83, 207);
+    height: 25vh;
+    width: 178px;
+    border-radius: 30px;
+}
+.third-data{
+    color: white;
+    padding:0px 27px;
+    padding-top: 20px;
+}
+.third-data2{
+    font-weight: 500;
+    color: white;
+    font-size: small;
+    padding-left: 25px;
+}
+.button1{
+    font-weight: 700;
+    height: 30px;
+    width: 80px;
+    font-size:12px;
+    background-color: black;
+    color: white;
+    border-radius: 20px 0px 20px 20px ;
+    margin-left: 80px;
+    border: 0 solid black;
+}
+.section-two{
+    padding-left: 2%;
+}
+.middle-first{
+    margin-top:4%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(72, 70, 70);
+    height:15vh;
+    width:400px;
+    border-radius: 30px;
+}
+.doller-section{
+    width: 50%;
+    padding-top: 25px;
+    margin-left: 40px;
+}
+.round{
+    width:33%;
+    height: 8vh;
+    background-color: black;
+    border-radius: 100px;
+}
+#dollar{
+    padding-left: 16px;
+    padding-top: 12px;
+    color: white;
+}
+.revenue-section{
+    width: 60%;
+    padding-top: 15px;
+    padding-left: 30px;
+    font-weight: 400;
+    color: white;
+}
+meter{
+    font-size: large;
+    position: relative;
+    bottom: 15px;
+}
+meter::-webkit-meter-optimum-value {
+    background:rgb(100, 83, 207);
+}
+.middle-second{
+   margin-top: 2.5%;
+   height:35vh;
+   display: flex;
+   flex-direction: row;
+}
+.travel-section{
+    padding:20px 20px ;
+    width:190px;
+    height: 95%;
+    background-color:rgb(72, 70, 70) ;
+    border-radius: 40px;
+    margin-left: 1%;
+    margin-right:20px;
+    font-size: smaller;
+    color: white;
+}
+.persons{
+    margin-top: -5%;
+}
+.people1{
+    border-radius: 20px;
+    margin-left:-7px;
+
+}
+.travel-buttons{
+    margin-top: 8%;
+    height: 23px;
+    width:70px;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(100, 83, 207);
+    border: 2px  rgb(100, 83, 207) solid ;
+}
+.travel-buttons2{
+    margin-top: 8%;
+    height: 23px;
+    width:70px;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    border: 2px  black solid ;
+}
+.travel-buttons3{
+    margin-top: 5%;
+    height: 25px;
+    width:90px;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    border: 2px black solid;
+}
+.hotel-section{
+    width:190px;
+    height: 95%;
+    background-color:  rgb(72, 70, 70);
+    border-radius: 40px;
+    padding:20px 15px ;
+    font-size: small;
+    color: white;
+}
+.middle-third{
+    margin-top:2%;
+    width:400px;
+    height:43vh;
+    border-radius: 50px;
+    background-color:  rgb(72, 70, 70);
+    margin-bottom: 1%;
+}
+.middle-third-intro{
+    padding-top: 15px;
+    padding-left: 50px;
+    color: white;
+}
+.slots{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left:30px;
+}
+.slots-info{
+    color: white;
+    font-weight: 500;
+    padding:20px 25px ;
+    height: 15vh;
+    margin: 5px 13px;
+    width:23%;
+    background-color: black;
+    border-radius: 20px;
+}
+.date{
+    font-size:large;
+    padding-left:15%;
+}
+.slots-info:hover{
+    background-color: rgba(236, 48, 111, 0.686);
+    color: white;
+}
+.last-section{
+    padding-left: 2%;
+}
+.right-first{
+    margin-top: 3.5%;
+    width:500px;
+    height:20vh;
+    background-color:  rgb(72, 70, 70);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.svvg{
+    width: 40%;
+    height: 100%;
+}
+svg{
+    float: left;
+    height: 130px;
+    width: 300px;
+    position: relative;
+    bottom:10px ;
+    right:40px ;
+    transform: rotate(10deg);
+}
+.svvg-intro{
+    padding-top: 20px;
+    width: 60%;
+    height: 100%;
+    color: white;
+}
+.right-middle{
+    width:500px;;
+    height:40vh;
+    background-color:  rgb(72, 70, 70);
+    border-radius: 40px;
+    margin-top: 3%;
+}
+.upper{
+    padding-left: 35px;
+    padding-top:25px ;
+    display: flex;
+    flex-direction: row;
+}
+.upper-right{
+    width: 70%;
+    font-size:small;
+}
+.upper-right >h5{
+    color: white;
+    font-weight: 500;
+}
+.upper-right > p{
+    color: white;
+    font-weight: 500;
+}
+.upper-left{
+    width: 30%;
+}
+.profile-img{
+    border-radius: 30px;
+    height:60px;
+    width: 60px;
+    margin-left: 20%;
+}
+.upper-left > p{
+    color: white;
+     font-weight: 500;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+#arrrow-img{
+  color: black;
+  font-size: 48px;
+  position: relative;
+  left: 3%;
+  bottom: 1px;
+}
+.user-img{
+    padding-top: 5px;
+    padding-left:5px;
+}
+.u-img{
+  margin-left:10px;
+}
+#u1-img{
+    border-radius: 30px;
+}
+.send{
+    height: 35px;
+    width:100px;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #fe5160;
+    border: 2px #fe5160 solid ;
+    font-size: 15px;
+    position: relative;
+    left: 60%;
+}
+.right-last{
+    width:500px;
+    height:30vh;
+    display: flex;
+    flex-direction: row;  
+    margin-top: 3%;
+}
+.project-detail{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(72, 70, 70);
+    border-radius: 30px;
+    margin-right: 10%;
+    color: white;
+    font-weight: 500; 
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: small;
+}
+.detail-info{
+    float: left;
+}
+.detail-name{
+    color: #fe5160;
+    font-size: large;
+}
+.detail-deg{
+    line-height:1px;
+}
+.detail-info > h5 {
+    font-size:small;
+    padding-top: 8px;
+}
+.detail-info > h4 {
+    font-size:medium;
+}
+.more > i{
+    padding-top: 2%;    
+}
+.percentage{
+    text-align: end;
+}
+.last-meter{
+    font-size: large;
+    width: 170px;
+}
+.project-progress{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(72, 70, 70);
+    border-radius: 30px;
+}
+.project-progress > h5{
+    color: white;
+    font-size: small;
+    float: left;
+    padding-top:20px;
+    padding-left: 20px;
+}
+.project-progress > i{
+     padding-left:65px;
+     padding-top: 15px;
+}
+.round-2{
+    background-color: #fe5160;
+    height: 60px;
+    width: 60px;
+    position:relative;
+    top:70px;
+    left:80px; 
+    border-radius:30px ;
+}
+.round-2 > p{
+    color: white;
+    position: relative;
+    bottom: 23px;
+    left: 13px;
+    font-weight: 500;
+}
+.project-progress > p{
+   color: white;
+   font-size: small;
+   font-weight: 500;
+   padding-top:42%;
+   padding-left: 20%;
+}
